@@ -1,0 +1,60 @@
+{
+  "name": "Anime Night",
+  "dataColors": [
+    "#6CB4FF",
+    "#FFD180",
+    "#B39DDB",
+    "#80CBC4",
+    "#F48FB1",
+    "#FF8A65",
+    "#F8D4E0",
+    "#FF8409"
+  ],
+  "background": "#4A3A55",
+  "foreground": "#FFFFFF",
+  "tableAccent": "#FF8409",
+  "good": "#80CBC4",
+  "neutral": "#FFD180",
+  "bad": "#FF8A65",
+  "textClasses": {
+    "title": { "color": "#FFFFFF" },
+    "header": { "color": "#FFFFFF" },
+    "callout": { "color": "#FFFFFF" },
+    "label": { "color": "#F8D4E0" }
+  },
+  "visualStyles": {
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#20132C" } },
+            "transparency": 0
+          }
+        ],
+        "outspace": [
+          {
+            "color": { "solid": { "color": "#20132C" } }
+          }
+        ]
+      }
+    },
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#4A3A55" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#B9B3BD" } },
+            "radius": 10
+          }
+        ]
+      }
+    }
+  }
+}
